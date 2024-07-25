@@ -3,4 +3,4 @@ $$ make
 $$ ./script.sh
 
 // compilar apenas uma instância (ex)
-$$ ./main selection instancias-num/num.1000.1.in
+$$ ./script.sh selection instancias-num/instancia1.in
