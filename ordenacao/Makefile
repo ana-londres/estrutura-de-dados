@@ -1,11 +1,10 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++11
-LDFLAGS = -mconsole
 
 all: main
 
 main: main.o selection-sort.o insertion-sort.o
-	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o main main.o selection-sort.o insertion-sort.o
+	$(CXX) $(CXXFLAGS) -o main main.o selection-sort.o insertion-sort.o
 
 main.o: main.cpp
 	$(CXX) $(CXXFLAGS) -c main.cpp
