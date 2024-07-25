@@ -18,8 +18,4 @@ void insertion_sort(vector<int>& arr) {
     }
 }
 
-void print_array(vector<int>& arr) {
-    for (const int& num : arr)
-        cout << num << " ";
-    cout << endl;
-}
+extern void print_array(std::vector<int>& arr);

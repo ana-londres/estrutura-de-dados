@@ -20,7 +20,7 @@ void selection_sort(vector<int>& arr) {
 }
 
 void print_array(vector<int>& arr) {
-    for (const int& num : arr)
+    for (int& num : arr)
         cout << num << " ";
     cout << endl;
 }
