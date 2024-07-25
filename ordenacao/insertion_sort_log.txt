@@ -1,0 +1,12 @@
+Algoritmo: insertion; Instancia: instancias-num/num.100000.1.in; Tempo de execução: 26.8424 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.100000.2.in; Tempo de execução: 26.7482 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.100000.3.in; Tempo de execução: 26.1688 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.100000.4.in; Tempo de execução: 0.00725 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.10000.1.in; Tempo de execução: 0.275886 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.10000.2.in; Tempo de execução: 0.271312 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.10000.3.in; Tempo de execução: 0.274034 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.10000.4.in; Tempo de execução: 0.000217 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.1000.1.in; Tempo de execução: 0.002821 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.1000.2.in; Tempo de execução: 0.002849 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.1000.3.in; Tempo de execução: 0.004275 segundos
+Algoritmo: insertion; Instancia: instancias-num/num.1000.4.in; Tempo de execução: 2.7e-05 segundos
