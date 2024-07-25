@@ -2,5 +2,5 @@
 $$ make
 $$ ./script.sh
 
-// compilar apenas uma instância (ex)
-$$ ./script.sh selection instancias-num/instancia1.in
+// compilar apenas uma instância (ex 10001.1)
+$$ ./script.sh insertion instancias-num/num.1000.1.in
