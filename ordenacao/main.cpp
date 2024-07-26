@@ -10,25 +10,25 @@ void selection_sort(vector<int>& arr);
 void insertion_sort(vector<int>& arr);
 extern void print_array(std::vector<int>& arr);
 
-void read_file(string& filename, vector<int>& arr) {
-    ifstream file(filename);
+void ler_arquivo(string& nome_arq, vector<int>& arr) {
+    ifstream arquivo(nome_arq);
 
-    if (!file) {
-        cout << "Não foi possível abrir o arquivo " << filename << endl;
+    if (!arquivo) {
+        cout << "Não foi possível abrir o arquivo " << nome_arq << endl;
         return;
     }
 
     int tamanho;
-    file >> tamanho;
+    arquivo >> tamanho;
     arr.resize(tamanho);
     for (int i = 0; i < tamanho; i++) {
-        file >> arr[i];
+        arquivo >> arr[i];
     }
 }
 
-void marca_tempo_exec(string& algoritmo, string& filename, double time_used) {
-    ofstream arquivo_log(algoritmo + "_sort_log.txt", ios::app); // Abre um arquivo de saída em modo de "append"
-    arquivo_log << "Algoritmo: " << algoritmo << "; Instancia: " << filename << "; Tempo de execução: " << time_used << " segundos" << endl;
+void marca_tempo_exec(string& algoritmo, string& nome_arq, double tempo_exec) {
+    ofstream arquivo_log(algoritmo + "_sort_log.txt", ios::app); // Abre um arquivo de saída em modo de "appfim"
+    arquivo_log << "Algoritmo: " << algoritmo << "; Instancia: " << nome_arq << "; Tempo de execução: " << tempo_exec << " segundos" << endl;
 }
 
 int main(int argc, char* argv[]) {
@@ -38,34 +38,34 @@ int main(int argc, char* argv[]) {
     }
 
     string algoritmo = argv[1];
-    string file_entrada = argv[2];
+    string arquivo_entrada = argv[2];
     vector<int> arr;
 
-    read_file(file_entrada, arr);
+    ler_arquivo(arquivo_entrada, arr);
 
-    clock_t start, end;
-    double cpu_time_used;
+    clock_t inicio, fim;
+    double cpu_tempo_exec;
 
     if (algoritmo == "selection") {
-        start = clock(); // Marca o tempo
+        inicio = clock(); // Marca o tempo
         selection_sort(arr);
-        end = clock();
+        fim = clock();
     } else if (algoritmo == "insertion") {
-        start = clock();
+        inicio = clock();
         insertion_sort(arr);
-        end = clock();
+        fim = clock();
     } else {
         cout << "Algoritmo não reconhecido: " << algoritmo << endl;
         return 1;
     }
 
-    cpu_time_used = (double)(end - start) / CLOCKS_PER_SEC; // Calcula o tempo utilizado para rodar
+    cpu_tempo_exec = (double)(fim - inicio) / CLOCKS_PER_SEC; // Calcula o tempo utilizado para rodar
     cout << "Resultado do array ordenado: " << endl;
     print_array(arr);
-    cout << "Tempo de execução do " << algoritmo << " sort: " << cpu_time_used << " segundos" << endl;
+    cout << "Tempo de execução do " << algoritmo << " sort: " << cpu_tempo_exec << " segundos" << endl;
 
     // Marca o empo de execução no arquivo de log
-    marca_tempo_exec(algoritmo, file_entrada, cpu_time_used);
+    marca_tempo_exec(algoritmo, arquivo_entrada, cpu_tempo_exec);
 
     return 0;
 }

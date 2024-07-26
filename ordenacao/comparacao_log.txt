@@ -1,13 +1,13 @@
 Tempos de execução (selection-sort vs insertion-sort)
-Instancia: instancias-num/num.100000.1.in; Selection: 36.6835 segundos; Insertion: 26.0481 segundos
-Instancia: instancias-num/num.100000.2.in; Selection: 36.3272 segundos; Insertion: 25.8007 segundos
-Instancia: instancias-num/num.100000.3.in; Selection: 36.4083 segundos; Insertion: 27.0852 segundos
-Instancia: instancias-num/num.100000.4.in; Selection: 35.9749 segundos; Insertion: 0.005566 segundos
-Instancia: instancias-num/num.10000.1.in; Selection: 0.371872 segundos; Insertion: 0.278711 segundos
-Instancia: instancias-num/num.10000.2.in; Selection: 0.368498 segundos; Insertion: 0.320695 segundos
-Instancia: instancias-num/num.10000.3.in; Selection: 0.373477 segundos; Insertion: 0.267675 segundos
-Instancia: instancias-num/num.10000.4.in; Selection: 0.380269 segundos; Insertion: 0.000219 segundos
-Instancia: instancias-num/num.1000.1.in; Selection: 0.004015 segundos; Insertion: 0.002784 segundos
-Instancia: instancias-num/num.1000.2.in; Selection: 0.003876 segundos; Insertion: 0.002743 segundos
-Instancia: instancias-num/num.1000.3.in; Selection: 0.007961 segundos; Insertion: 0.003011 segundos
-Instancia: instancias-num/num.1000.4.in; Selection: 0.008123 segundos; Insertion: 2.5e-05 segundos
+Instancia: instancias-num/num.100000.1.in; Selection: 37.3729 segundos; Insertion: 26.4942 segundos
+Instancia: instancias-num/num.100000.2.in; Selection: 37.1108 segundos; Insertion: 27.3734 segundos
+Instancia: instancias-num/num.100000.3.in; Selection: 36.7203 segundos; Insertion: 27.8445 segundos
+Instancia: instancias-num/num.100000.4.in; Selection: 36.3656 segundos; Insertion: 0.009973 segundos
+Instancia: instancias-num/num.10000.1.in; Selection: 0.402295 segundos; Insertion: 0.298519 segundos
+Instancia: instancias-num/num.10000.2.in; Selection: 0.382156 segundos; Insertion: 0.289283 segundos
+Instancia: instancias-num/num.10000.3.in; Selection: 0.385343 segundos; Insertion: 0.3029 segundos
+Instancia: instancias-num/num.10000.4.in; Selection: 0.389546 segundos; Insertion: 0.000216 segundos
+Instancia: instancias-num/num.1000.1.in; Selection: 0.00405 segundos; Insertion: 0.002959 segundos
+Instancia: instancias-num/num.1000.2.in; Selection: 0.005613 segundos; Insertion: 0.003429 segundos
+Instancia: instancias-num/num.1000.3.in; Selection: 0.004252 segundos; Insertion: 0.003139 segundos
+Instancia: instancias-num/num.1000.4.in; Selection: 0.004856 segundos; Insertion: 2.7e-05 segundos
