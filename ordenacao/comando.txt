@@ -1,6 +1,8 @@
 // compilar o programa completo
-$$ make
-$$ ./script.sh
+  $ make
+  $ ./script.sh
+OU
+  $ g++ -o main main.o selection-sort.o insertion-sort.o
 
-// compilar apenas uma instância (ex 10001.1)
-$$ ./script.sh insertion instancias-num/num.1000.1.in
+// compilar apenas uma instância (ex 1000.1)
+  $ ./script.sh insertion instancias-num/num.1000.1.in
