@@ -11,7 +11,10 @@ int main() {
     lista.insere(1, 100);
     lista.insere(2, 200);
     lista.insere(3, 300);
+    cout << "Elemento na posicao 1: " << lista.elemento(1) << endl;
     cout << "Elemento na posicao 2: " << lista.elemento(2) << endl;
+    cout << "Elemento na posicao 3: " << lista.elemento(3) << endl;
+
 
     lista.modifica(2, 250);
     cout << "Novo valor do elemento na posicao 2: " << lista.elemento(2) << endl;
