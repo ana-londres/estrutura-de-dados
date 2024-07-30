@@ -1,0 +1,10 @@
+// rodar com o makefile:
+    $ make // -> compila
+    $ make test // -> executa
+    $ make clean // -> limpa
+
+
+// com g++
+    $ g++ -Wall -Wextra -std=c++11 -o lista-seq main.cpp lista-seq.cpp // -> compila
+    $ ./lista-seq  // -> executa
+    $ rm lista-seq  // -> limpa
