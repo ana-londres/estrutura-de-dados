@@ -1,0 +1,4 @@
+# para rodar
+    $ python main.py pcv4.txt
+
+# obs: só mudar o nome do arquivo para rodar as outras instâncias
